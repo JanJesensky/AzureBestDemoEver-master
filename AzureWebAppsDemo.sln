@@ -37,22 +37,4 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://jesenskyj.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = AzureWebAppsDemo\\AzureWebAppsDemo.csproj
-		SccProjectName1 = AzureWebAppsDemo
-		SccLocalPath1 = AzureWebAppsDemo
-		SccProjectUniqueName2 = Entities\\Entities.csproj
-		SccProjectName2 = Entities
-		SccLocalPath2 = Entities
-		SccProjectUniqueName3 = ComputeWebJobsSDKStorageQueue1\\AzureWebJobDemo.csproj
-		SccProjectName3 = ComputeWebJobsSDKStorageQueue1
-		SccLocalPath3 = ComputeWebJobsSDKStorageQueue1
-		SccProjectUniqueName4 = DAL\\DAL.csproj
-		SccProjectName4 = DAL
-		SccLocalPath4 = DAL
-	EndGlobalSection
 EndGlobal
