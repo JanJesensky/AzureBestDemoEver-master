@@ -1,0 +1,73 @@
+﻿@model AzureWebAppsDemo.Models.SubscriptionViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@Styles.Render("~/Content/themes/base/css")
+
+<h3>Subscriptions in queue:</h3>
+<table id="queueTable" class="display" >
+    <thead @*style="background-color:lightyellow"*@>
+        <tr>
+            <th class="dt-head-left">@Html.DisplayName("First Name")</th>
+            <th class="dt-head-left">@Html.DisplayName("Last Name")</th>
+            <th class="dt-head-left">@Html.DisplayName("Email")</th>
+            <th class="dt-head-left">@Html.DisplayName("Received Date")</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+
+    </tfoot>
+</table>
+
+<h3>Subscriptions created:</h3>
+<table id="subscriptionsTable" class="display">
+    <thead @*style="background-color:lightgreen"*@>
+        <tr>
+            <th class="dt-head-left">@Html.DisplayName("First Name")</th>
+            <th class="dt-head-left">@Html.DisplayName("Last Name")</th>
+            <th class="dt-head-left">@Html.DisplayName("Email")</th>
+            <th class="dt-head-left">@Html.DisplayName("Created Date")</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+
+    </tfoot>
+</table>
+
+<br />
+<input type="button" id="btnAddSubscription" value="Add Subscription" class="btn btn-default">
+
+
+<div id="addSubscriptionDialog">
+    @using (Html.BeginForm("AddSubscription", "Home", null, FormMethod.Post, new { id = "addSubscriptionForm", enctype = "multipart/form-data" }))
+    {
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        @Html.AntiForgeryToken()
+        <table class="display table">
+            <tr>
+                <td>@Html.LabelFor(m => m.FirstName, new { @class = "control-label" })</td>
+                <td>@Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.LastName, new { @class = "control-label" })</td>
+                <td>@Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.Email, new { @class = "control-label" })</td>
+                <td>@Html.TextBoxFor(m => m.Email, new { @class = "form-control" })</td>
+            </tr>
+        </table>
+
+        <br />
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/subscriptions")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jqueryui")
+}

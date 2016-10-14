@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureWebAppsDemo", "AzureWebAppsDemo\AzureWebAppsDemo.csproj", "{FC8F082D-85B2-4A6A-882A-2F55C2344230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureWebJobDemo", "ComputeWebJobsSDKStorageQueue1\AzureWebJobDemo.csproj", "{153ED617-8400-4DD9-A04B-907F1B892AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{E936CEED-67BC-4459-85BA-6C8645C41C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1094BBA4-1B5F-4A4C-8AB2-C6361AC061A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8F082D-85B2-4A6A-882A-2F55C2344230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8F082D-85B2-4A6A-882A-2F55C2344230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8F082D-85B2-4A6A-882A-2F55C2344230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8F082D-85B2-4A6A-882A-2F55C2344230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153ED617-8400-4DD9-A04B-907F1B892AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153ED617-8400-4DD9-A04B-907F1B892AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153ED617-8400-4DD9-A04B-907F1B892AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153ED617-8400-4DD9-A04B-907F1B892AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E936CEED-67BC-4459-85BA-6C8645C41C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E936CEED-67BC-4459-85BA-6C8645C41C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E936CEED-67BC-4459-85BA-6C8645C41C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E936CEED-67BC-4459-85BA-6C8645C41C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1094BBA4-1B5F-4A4C-8AB2-C6361AC061A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1094BBA4-1B5F-4A4C-8AB2-C6361AC061A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1094BBA4-1B5F-4A4C-8AB2-C6361AC061A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1094BBA4-1B5F-4A4C-8AB2-C6361AC061A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jesenskyj.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AzureWebAppsDemo\\AzureWebAppsDemo.csproj
+		SccProjectName1 = AzureWebAppsDemo
+		SccLocalPath1 = AzureWebAppsDemo
+		SccProjectUniqueName2 = Entities\\Entities.csproj
+		SccProjectName2 = Entities
+		SccLocalPath2 = Entities
+		SccProjectUniqueName3 = ComputeWebJobsSDKStorageQueue1\\AzureWebJobDemo.csproj
+		SccProjectName3 = ComputeWebJobsSDKStorageQueue1
+		SccLocalPath3 = ComputeWebJobsSDKStorageQueue1
+		SccProjectUniqueName4 = DAL\\DAL.csproj
+		SccProjectName4 = DAL
+		SccLocalPath4 = DAL
+	EndGlobalSection
+EndGlobal
